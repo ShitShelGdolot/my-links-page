@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Links</title>
+
+  <style>
+    /* Basic reset */
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+      background: #EDDBC2;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 420px;
+      padding: 24px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .header {
+      width: 100%;          /* Match buttons width */
+      text-align: center;
+      margin-bottom: 32px;
+    }
+
+    .title {
+      font-size: clamp(40px, 10vw, 64px);
+      font-weight: 700;
+      color: #391212;
+      line-height: 1.1;
+      white-space: nowrap;
+    }
+
+    .subtitle {
+      font-size: 14px;
+      color: #391212;
+      opacity: 0.75;
+      margin-top: 8px;
+    }
+
+    .btn {
+      width: 100%;          /* Full width buttons */
+      height: 56px;
+      border-radius: 24px;
+      background: #391212;
+      color: #EDDBC2;
+      text-decoration: none;
+      font-size: 18px;
+      font-weight: 600;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      margin-bottom: 16px;
+      transition: transform 0.12s ease, box-shadow 0.12s ease;
+    }
+
+    .btn:last-child {
+      margin-bottom: 0;
+    }
+
+    .btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.25);
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <!-- Page title -->
+    <h1 class="title">שיט של גדולות  </h1> <br>
+
+    <!-- Small subtitle text -->
+    <p class="subtitle">נופר שחם וליהיא דרזנר</p><br>
+    <br>
+
+    <!-- Replace # with your own links -->
+    <a class="btn" href="https://podcasts.apple.com/il/podcast/%D7%A9%D7%99%D7%98-%D7%A9%D7%9C-%D7%92%D7%93%D7%95%D7%9C%D7%95%D7%AA/id1852800193?l=he" target="_blank">Apple Podcast</a>
+    <a class="btn" href="https://open.spotify.com/show/5NHQv6dkABLM2cThn0w0Sy?si=OuqhFLJsQqyoQ-sBpKF8VQ" target="_blank">Spotify</a>
+    <a class="btn" href="https://www.tiktok.com/@shit_shel_gdolot?_r=1&_t=ZS-92n5vyuVt5u" target="_blank">TikTok</a>
+  </div>
+</body>
+</html>
+
+
